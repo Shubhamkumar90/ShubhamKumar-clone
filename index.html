@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet", href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="images/link beelogo.png" alt="logo">
+        <div class="navbar-link">
+            <h4 onclick="scrollSection('main_home')">Home</h4>
+            <h4 onclick="scrollSection('About_main')">About</h4>
+            <h4 onclick="scrollSection('Services')">Services</h4>
+        </div>
+        <div class="links">
+            <a href="login.html"><h4>Login</h4></a>
+            <a href="signup.html"><h4>Signup</h4></a>
+        </div>
+    </div>
+    <div class="main_home">
+        <img class="main_home_img1" src="images/download.webp" alt="">
+        <div>
+            <div>
+                <h1>Your links</h1>
+                <h1>Your story.</h1>
+            </div>
+            <div class="align">
+                <p>Welcome to our platform designed to empower you in the digital realm. Curate and showcase your online presence with ease, allowing others to explore the depths of your creativity. 
+                    <b>Share you portfolio, social media accounts and more only with one ~ Link Bee ~ link.
+                    </b>
+                </p>
+            </div>
+            <div class="align2">
+                <button>Demo Page</button>
+                <button onclick="window.location.href='login.html'">Get Started</button>
+            </div>
+        </div>
+        <img class="main_home_img2" src="images/Linkbee_Home_Image-48ad4e36.webp" alt="">
+    </div>
+    <div class="About_main">
+        <h2><b>Unlock</b> the Potential of<br> Your Online Reach</h2>
+        <div class="About_main_primary">
+            <div class="About_main_secondary">
+                <img src="images/showcase.webp" alt="">
+                <h4>Showcase</h4><br>
+                <p>We believe in the power of showcasing your unique talents, passions, and achievements to the world.</p>
+            </div>
+            <div class="About_main_secondary">
+                <img src="images/engage.webp" alt="">
+                <h4>Engage</h4><br>
+                <p>We understand the importance of actively engaging with your audience and building meaningful connections.</p>
+            </div>
+            <div class="About_main_secondary">
+                <img src="images/refine.webp" alt="">
+                <h4>Refine</h4><br>
+                <p>We provide a variety of resources and techniques to help you refine your online presence and make it more effective</p>
+            </div>
+        </div>
+        <br><br>
+    </div>
+    <div class="Services" >
+        <h1>Services</h1>
+        <img src="images/meeting.webp" alt=""><br>
+        <p>Our platform offers seamless integration of various links into your centralized profile page. Whether you want to share your portfolio, blog, social media profiles, or any other online content, our link integration service allows you to consolidate and present them in one convenient location. By adding your desired links, you can provide visitors with easy access to your diverse online presence and enable them to explore your work, connect with you on different platforms, and discover more about your digital footprint. Simplify the process of sharing and navigating your online content with our link integration service, making it effortless for others to engage with your diverse online identity</p>
+    </div>
+    <div class="someAdd">
+        <h1>Reach out to everyone with one link</h1>
+        <p>With a single link, you can showcase your portfolio, share your social media accounts, promote your blog, and more.</p>
+        <img src="images/globe.webp" alt=""><br>
+    </div>
+    <div class="contact" style="border-bottom: 6px #ffbf23;">
+        <h1>~ Send Us a Message ~</h1>
+        <form class="conForm">
+            <h4>Deliever you message from here</h4>
+            <input type="text" required placeholder="Name">
+            <input type="text" required placeholder="Email">
+            <textarea name="message" required placeholder="Enter your message" cols="30" rows="10"></textarea><br>
+            <button>Send</button>
+        </form>
+    </div>
+    <div class="footer">
+        <img src="images/link beelogo.png" alt="">
+        <h3>~ Start connecting with the world now ~</h3>
+        <small>Designed and developed by <a href="">tom</a></small>
+    </div>
+    <script>
+        function scrollSection(classname){
+            document.getElementsByClassName(classname)[0].scrollIntoView({behavior:"smooth"})
+        }
+    </script>
+</body>
+</html>

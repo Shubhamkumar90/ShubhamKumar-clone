@@ -1,0 +1,228 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: #fff;
+    z-index: 10000;
+    border-radius: 100px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    
+}
+.navbar img{
+    margin-left: 2rem;
+    width: 60px;
+    height: 60px;
+}
+.navbar .navbar-link{
+    display: flex;
+    /* justify-content: space-between; */
+    cursor: pointer;
+}
+.navbar-link h4{
+    padding-inline: 20px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.links h4{
+    background-color: #ffbf23;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #000;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+.main_home{
+    display: flex;
+    padding-top: 5rem;
+    /* flex-direction: column; */
+    margin: 2rem;
+}
+.main_home h1{
+    display: block;
+    /* margin-top: -3rem; */
+    margin: 0;
+    font-size: 8rem;
+    /* z-index: ; */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.main_home_img1{
+    height: 100px;
+    width: 100px;
+    /* margin: 4rem 0rem; */
+    position: absolute;
+    top: 25%;
+    right: 46%;
+    rotate: -20deg;
+}
+.main_home_img2 {
+    /* display: flex;
+    justify-content: center; */
+    width: 430px;
+    height: 500px;
+    /* margin: 4rem 0rem; */
+    border-radius: 30px;
+    /* align-items: center; */
+}
+    
+.main_home p {
+    text-align: center;
+    line-height: 30px;
+}
+.align{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.align2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align2 button{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    background-color: #ffbf23;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1.7px 1.7px 2px #000;
+    cursor: pointer;
+}
+
+.About_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #ffbf23;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    border-radius: 5px;
+    padding-top: 3rem;
+}
+.About_main_primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.About_main_secondary{
+    background-color: #fff;
+    width: 330px;
+    height: 380px;
+    border-radius: 40px;
+    box-shadow: 1px 2px 4px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 2rem;
+}
+.About_main_secondary h4{margin: 0;}
+.About_main_secondary p {
+    margin-top: -2rem;
+    font-size: 15px;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 30px;
+}
+.Services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.Services img {
+    width: 600px;
+    height: 400px;
+}
+.Services p {
+    padding: 0rem 3rem;
+    line-height: 35px;
+    font-size: 15px;
+    text-align: justify;
+}
+.Services h1{font-size: 4rem;}
+.someAdd{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffbf23;
+    margin: 4rem 0rem;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    border-radius: 5px;
+    /* position: relative; */
+}
+.someAdd img {
+    height: 500px;
+    width: 500px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    /* border-bottom: 6px #ffbf23; */
+}
+.contact .conForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.conForm input,textarea{
+    margin: 1rem 0rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #ffbf23;
+    font-weight: bolder;
+}
+.conForm button{
+    padding: 5px 10px;
+    background-color: #ffbf23;
+    font-weight: bolder;
+    border: none;
+    font-size: 15px;
+    box-shadow: 1.7px 1.7px 2px #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border-top:6px #ffbf23 ; */
+    border: 20px;
+}
+.footer a{
+    color: #000;
+    font-weight: bolder;
+    background-color: #ffbf23;
+    padding: 0 2px;
+    border-radius: 2px;
+}
